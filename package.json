@@ -1,0 +1,26 @@
+{
+  "name": "rate-limiter-learning",
+  "version": "1.0.0",
+  "description": "Learn rate limiters by building them in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test.js",
+    "example:fixed": "node examples/fixed-window-example.js",
+    "example:sliding": "node examples/sliding-window-example.js",
+    "example:token": "node examples/token-bucket-example.js",
+    "example:all": "node examples/compare-all.js",
+    "example:express": "node examples/express-middleware.js"
+  },
+  "keywords": [
+    "rate-limiter",
+    "rate-limiting",
+    "api",
+    "throttle"
+  ],
+  "author": "You",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
+}
